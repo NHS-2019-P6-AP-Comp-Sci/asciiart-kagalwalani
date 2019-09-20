@@ -17,11 +17,38 @@
 // YOU CODE HERE :) 
 
 public class ASCIIArt {
+	public static void line() {
+		System.out.println("/=========================\\");
+	}
+	public static void thinline() {
+		System.out.println("___________________________");
+	}
+	public static void apps() {
+		System.out.println("|||   ___   ___   ___   |||");
+		System.out.println("|||  [   ] [   ] [   ]  |||");
+		System.out.println("|||  [___] [___] [___]  |||");
+		
+	}
+	public static void homebutton() {
+		System.out.println("|===========\"  \"==========|");	
+	}
+		
+	
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		thinline();
+		line();
+		line();
+		line();
+		apps();
+		apps();
+		apps();
+		apps();
+		line();
+		homebutton();
+		homebutton();
+		System.out.println("            \"  \"");
+		System.out.println("This is my favorite building.");
+		   
+
 	}
 }
